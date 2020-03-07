@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Mise en style des 5 cases*/
+.casea{
+    height: 490px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 3%;
+    position: relative;
+    margin-bottom: 3%;
+    box-shadow: 0px 5px 4px rgb(151, 145, 145);
+}
+
+.caseb{
+    height: 490px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 3%;
+    position: relative;
+    margin-bottom: 9%;
+    box-shadow: 0px 5px 4px rgb(151, 145, 145);
+}
+
+/*zone pour les images dans les 4 cases*/
+.zone_image1{
+    height: 320px;
+    width: 350px;
+    background-color: #bbaeff;
+    border-radius: 3% 3% 0% 0%;
+    margin-bottom: 10%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zone_image2{
+    height: 320px;
+    width: 350px;
+    background-color: #ebd8a2;
+    border-radius: 3% 3% 0% 0%;
+    margin-bottom: 10%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zone_image3{
+    height: 320px;
+    width: 350px;
+    background-color: #74f7fc;
+    border-radius: 3% 3% 0% 0%;
+    margin-bottom: 10%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zone_image4{
+    height: 320px;
+    width: 350px;
+    background-color: #f5a8e2;
+    border-radius: 3% 3% 0% 0%;
+    margin-bottom: 10%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.zone_image5{
+    height: 320px;
+    width: 350px;
+    background-color: #af4949;
+    border-radius: 3% 3% 0% 0%;
+    margin-bottom: 10%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*image des 5 zone*/
+.picture1{
+    background-image: url(../images/ananas.png);
+}
+
+.picture2{
+    background-image: url(../images/banane.png);
+}
+
+.picture3{
+    background-image: url(../images/coconut.png);
+}
+
+.picture4{
+    background-image: url(../images/mangue.png);
+}
+
+.picture5{
+    background-image: url(../images/orange.png);
+}
+
+/*Nom des differents fruits*/
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0% 0% 9% 8%;
+}
+
+/*prix des differents fruits*/
+.prix{
+    margin: 8%;
+    font-size: 20px;
+}
+
+/*Mise en style des boutons + & - */
+.plus_moins{
+    color: white;
+    text-decoration: none;
+    background-color: #000;
+    padding: 0% 2%;
+    letter-spacing: 8px;
+    font-size: 30px;
+    border-radius: 28%;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+/*global zone regroupant les cases*/
+#global1{
+    margin: 3% 17%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around ;
+}
+
+#global2{
+    margin: 3% 20.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

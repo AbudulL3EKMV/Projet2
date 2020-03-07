@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Mise en style de grande zone pour les textes & images*/
+#big_zone{
+    height: 700px;
+    width: 95%;
+    background-color: #fff;
+    margin: 2% auto;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px black;
+    padding: 7% 1.5%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+/*Mise en style de zone_image & zone_text*/
+.zone_image{
+    height: 520px;
+    width: 50%;
+    background-color: #fff0e2;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.zone_text{
+    height: 520px;
+    width: 42%;
+    position: relative;
+}
+
+/*Image de la zone_image*/
+.picture{
+    background-image: url(../images/avocat.png);
+}
+
+/* les 2 textes*/
+.t1{
+    border-left: 3px solid #000;
+    padding-left: 3%;
+    color: rgb(170, 168, 168);
+    margin-bottom: 8%;
+}
+
+/*mise en couleur du texte dans le span*/
+span{
+    color: #00859d;
+}
+
+/*mise en style du prix et l'article*/
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-bottom: 4%;
+}
+
+/* Mise en style de description & lorem ipsum*/
+h4{
+    color: rgb(170, 168, 168);
+    margin-bottom: 4%;
+}
+
+.descripton_text{
+    font-size: 14px;
+    color: rgb(170, 168, 168);
+    word-spacing: 7px;
+    margin-bottom: 8%;
+}
+
+/* Mise en style du bouton BUY*/
+.btn_buy{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2.5% 12%;
+    background-color: #00859d;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px rgb(156, 156, 156);
+    margin-right: 20%;
+}
+
+/*Stylisation du numero 1 & des signes - et + */
+.plus_moins{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(148, 148, 148);;
+}
+
+.numero{
+    margin: 0% 2%;
+    font-size: 25px;
+    color: #000;
+}
+
+.text_quantity{
+    font-size: 9px;
+    color: rgb(170, 168, 168);
+    position: absolute;
+    right: 38%;
+}
+
+/*Enplacement des 3 mini images d'avocat*/
+.avocat_1{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    bottom: 9%;
+    left: 15%;
+   
+}
+
+.avocat_2{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+    padding: 0.5%;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px rgb(179, 176, 176);
+}
+
+.avocat_3{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    bottom: 9%;
+    left: 35%;
+    
+}

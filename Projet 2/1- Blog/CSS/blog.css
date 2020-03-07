@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c3d1e9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Mise en place de la page global...*/
+#page_global{
+    height: 650px;
+    width: 97%;
+    background-color: #fff;
+    margin: 1.5% auto;
+    padding: 3%;
+}
+
+/*Menu*/
+.menu{
+    position: relative;
+    margin-bottom: 2%;
+}
+
+/*Mise en position des deux traits & wikipedia*/
+.position_2_traits-and-wikipedia_menu{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Mise en forme des deux traits du menu*/
+.trait_menu{
+    height: 4px;
+    width: 25px;
+    background-color: #000;
+    margin  : 0px 20px 6px 0px;
+}
+
+/*le texte wikipedia*/
+.wiki{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/*Stylisation des options du menu*/
+.opt_article{
+    text-decoration: none;
+    color: #000;
+    position: absolute;
+    left: 21%;
+    top: 10%;
+}
+
+.opt_talk{
+    text-decoration: none;
+    color: rgb(180, 178, 178);
+    position: absolute;
+    left: 31%;
+    top: 10%;
+}
+
+/*position de la zone de recherche*/
+input{
+    border: none;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+/*Mise en style & position d'icon utilisateur*/
+.icon_user{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(141, 137, 137);
+    border-radius: 50%;
+    position: absolute;
+    right: 6.5%;
+    top: 1%;
+}
+
+/*style & position sur nom d'utilisateur*/
+.name_user{
+    color: rgb(180, 178, 178);
+    position: absolute;
+    right: 0.3%;
+    top: 10%;
+}
+
+
+#big_zone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caseA{
+    height: 530px;
+    width: 65%;
+    /*background-color: rgb(173, 167, 167);*/
+    padding: 2% 2% 0% 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/*stylisation de la zone1 des options*/
+.texta1{
+    height: 250px;
+    width: 22%;
+}
+
+/*style de texte et options de la zone1*/
+.dif_option1{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    list-style: none;
+}
+
+.dif_option2{
+    text-decoration: none;
+    color: rgb(168, 167, 167);
+    font-size: 10px;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 7%;
+}
+
+.texta2{
+    height: 250px;
+    width: 70%;
+}
+
+/*Mise en style des grands titres*/
+.grand_titre1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+/*texte*/
+.texte_titre1{
+    font-size: 12px;
+    color: rgb(27, 27, 27);
+}
+
+/*quelques parties du texte souligné*/
+span{
+    text-decoration: underline;
+}
+
+/*stylisation de la zone2 des options*/
+.texta3{
+    height: 250px;
+    width: 22%;
+    padding-top: 26%;
+}
+
+/*style de texte et options de la zone2*/
+.dif_option3{
+    text-decoration: none;
+    color: rgb(168, 167, 167);
+    font-size: 10px;
+    list-style: none;
+}
+
+.texta4{
+    height: 250px;
+    width: 70%;
+    padding-top: 4%;
+}
+
+/*positionnement de l'image principale dans la zone_image*/
+.caseB{
+    height: 530px;
+    width: 30%;
+    background-color: rgb(129, 54, 54);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imageB{
+    background-image: url(../images/woman2.jpg);
+    
+}

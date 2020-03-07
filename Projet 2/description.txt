@@ -1,0 +1,14 @@
+EXERCICE 2
+
+dans ce dossier vous trouvez 3 sous dossiers qui en leur sein contient une interface que vous devrai realiser, 
+les images vous on été soumis de grâce utiliser les images de chaque sous dossiers.
+
+- toutes les icones sur les interfaces vous devrai les negliger et traviller comme si il avait part d'icone
+
+- vous devrez creer un nouveau repo sur github et ajouter le projet enfin me soumettre le lien sur le serveur Discord
+
+
+date limite : samedi 07 mars 2020 à 00h.
+
+
+ 
